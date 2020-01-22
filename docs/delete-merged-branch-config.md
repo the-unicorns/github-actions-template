@@ -22,7 +22,7 @@ branches:
 
 ## File Location
 
-- [delete-merged-branch-config](./.github/delete-merged-branch-config.yml) - under __.github__ folder
+- [delete-merged-branch-config.yml](./.github/delete-merged-branch-config.yml) - under __.github__ folder
 
 ## Security
 
