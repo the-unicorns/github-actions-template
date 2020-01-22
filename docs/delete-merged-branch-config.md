@@ -14,7 +14,7 @@ GitHub action using [@jessfraz](https://github.com/jessfraz/branch-cleanup-actio
 
 ## Setup
 
-Just change the branches that you want to perform the action and move the file [delete-merged-branch-config.yml](../.github/delete-merged-branch-config.yml) to __.github/workspace__.
+Just change the branches that you want to perform the action and move the file [delete-merged-branch-config.yml](../.github/delete-merged-branch-config.yml) into __.github/workspace__.
 
 > Notice that the branch deleted will be the one that you open the pull request, and not the ones you specify bellow. For exemple: __feature/label__ to __develop__, the branch deleted will be __feature/label__ and not __develop__.
 
