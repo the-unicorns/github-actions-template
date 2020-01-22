@@ -12,7 +12,7 @@ GitHub action using [@jessfraz](https://github.com/jessfraz/branch-cleanup-actio
 
 Just change the branches that you want to perform the action.
 
-> Notice that the branch deleted will be the one that you open the pull request and not the ones you specify bellow for exemple: __feature/label__ to __develop__, the branch deleted will be __feature/label__ and not __develop__.
+> Notice that the branch deleted will be the one that you open the pull request, and not the ones you specify bellow. For exemple: __feature/label__ to __develop__, the branch deleted will be __feature/label__ and not __develop__.
 
 ```yaml
 branches:
@@ -20,9 +20,9 @@ branches:
       - develop*
 ```
 
-## Scripts
+## File Location
 
-- [Delete merged branchs](./.github/delete-merged-branch-config.yml) - _Deletes a branch after a pull request is merged_
+- [delete-merged-branch-config](./.github/delete-merged-branch-config.yml) - under __.github__ folder
 
 ## Security
 
