@@ -6,7 +6,7 @@
 
 Selecte the desired script inside .github and copy to your project inside __.github/workspace__
 
-## Scripts
+## Actions
 
 - [Delete merged branchs](./docs/delete-merged-branch-config.md) - _Deletes a branch after a pull request is merged_
 
